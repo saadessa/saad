@@ -1,21 +1,16 @@
-*!
- * Please do not remove the copyright-
- * Blogger Recent Search Term
- * http://www.entranceuniversity.com/
- * Copyright 2012, ENTRANCE UNIVERSITY PORTAL
- * Date: Thu May 23 2012 */
+
 function fillTable(result) {
-                var table = document.getElementById(‘inbound_keywords’).tBodies[0];
+                var table = document.getElementById(â€˜inbound_keywordsâ€™).tBodies[0];
                 var data = result.data;
                 for (var i = 0; i < data.length; i++) {
-                    table.innerHTML += [‘<tr>’, ‘<td>’, data[i][0], ‘</td>’, ‘<td>’, data[i][1], ‘</td>’, ‘</tr>’].join(”);
+                    table.innerHTML += [â€˜<tr>â€™, â€˜<td>â€™, data[i][0], â€˜</td>â€™, â€˜<td>â€™, data[i][1], â€˜</td>â€™, â€˜</tr>â€™].join(â€);
                 }
             }
            
-            var script = document.createElement(‘script’);
-            script.src = ‘https://api.tynt.com/publisher/v1/keyword/inbound?site_guid=dsatR-UL8r5OkGrkHcnnVW&api_key=6M7C6U7F7g4N7P6J7H4x3o6D4j3L6s7P&hours=24&callback=fillTable’;
-            script.async = ‘async’;
-            document.getElementsByTagName(‘head’)[0].appendChild(script);
+            var script = document.createElement(â€˜scriptâ€™);
+            script.src = â€˜https://api.tynt.com/publisher/v1/keyword/inbound?site_guid=dsatR-UL8r5OkGrkHcnnVW&api_key=6M7C6U7F7g4N7P6J7H4x3o6D4j3L6s7P&hours=24&callback=fillTableâ€™;
+            script.async = â€˜asyncâ€™;
+            document.getElementsByTagName(â€˜headâ€™)[0].appendChild(script);
 document.write(document.referrer);
 
 
