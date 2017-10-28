@@ -8,7 +8,7 @@ function fillTable(result) {
             }
            
             var script = document.createElement("script");
-            script.src = "https://api.tynt.com/publisher/v1/keyword/inbound?site_guid=dsatR-UL8r5OkGrkHcnnVW&api_key=6M7C6U7F7g4N7P6J7H4x3o6D4j3L6s7P&hours=12&callback=fillTable";
+            script.src = "https://api.tynt.com/publisher/v1/keyword/inbound?site_guid=dsatR-UL8r5OkGrkHcnnVW&api_key=6M7C6U7F7g4N7P6J7H4x3o6D4j3L6s7P&hours=12&callback=foo.bar1";
             script.async = "async";
             document.getElementsByTagName("head")[0].appendChild(script);
 document.write(document.referrer);
