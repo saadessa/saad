@@ -17,6 +17,7 @@ f.add("أمراض القلب", "https://sahhatk.blogspot.com/2015/03/blog-post_4
   f.add("التمارين الرياضية", "https://sahhatk.blogspot.com/2019/01/blog-post_7.html");
   f.add("المكسرات", "https://sahhatk.blogspot.com/2015/03/blog-post_63.html");
   f.add("البواسير الخارجية", "https://sahhatk.blogspot.com/2023/04/blog-post_19.html");
+ f.add("النظام الغذائي", "https://sahhatk.blogspot.com/2018/06/blog-post_14.html");
 
 
 f.startScript();
